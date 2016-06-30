@@ -1,0 +1,12 @@
+import React, { Component } from 'react';
+import Canvas from './Canvas';
+
+export default class Root extends Component {
+	render() {
+		return (
+			<div>
+				<Canvas />
+			</div>
+		);
+	}
+}
